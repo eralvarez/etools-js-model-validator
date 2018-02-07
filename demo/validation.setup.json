@@ -1,0 +1,20 @@
+{
+    "fillWithDefaults": false,
+    "keys": {
+        "name": {
+            "required": true,
+            "type": "string",
+            "default": ""
+        },
+        "lastname": {
+            "required": false,
+            "type": "string",
+            "default": ""
+        },
+        "phone": {
+            "required": true,
+            "type": "number",
+            "default": 123456789
+        }
+    }
+}

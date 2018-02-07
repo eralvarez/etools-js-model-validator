@@ -1,0 +1,47 @@
+{
+    "case-1": {
+        "fillWithDefaults": false,
+        "keys": {
+            "name": {
+                "required": true,
+                "type": "string",
+                "default": ""
+            },
+            "lastname": {
+                "required": true,
+                "type": "string",
+                "default": ""
+            }
+        }
+    },
+    "case-2": {
+        "fillWithDefaults": false,
+        "keys": {
+            "name": {
+                "required": true,
+                "type": "string",
+                "default": ""
+            },
+            "lastname": {
+                "required": true,
+                "type": "string",
+                "default": ""
+            }
+        }
+    },
+    "case-3": {
+        "fillWithDefaults": true,
+        "keys": {
+            "name": {
+                "required": true,
+                "type": "string",
+                "default": ""
+            },
+            "lastname": {
+                "required": true,
+                "type": "string",
+                "default": ""
+            }
+        }
+    }
+}

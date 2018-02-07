@@ -1,0 +1,25 @@
+{
+  "name": "@etools/js-model-validator",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "scripts": {
+    "test:init": "./node_modules/jasmine/bin/jasmine.js init",
+    "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/jasmine/bin/jasmine.js",
+    "test:watch": "./node_modules/.bin/nodemon ./node_modules/istanbul/lib/cli.js cover ./node_modules/jasmine/bin/jasmine.js",
+    "istanbul": "./node_modules/istanbul/lib/cli.js",
+    "demo": "node demo/demo.js",
+    "demo:watch": "./node_modules/.bin/nodemon node demo/demo.js"
+  },
+  "author": "Erick Alvarez",
+  "license": "MIT",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "istanbul": "~0.4.5",
+    "jasmine": "~2.9.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "jslint": "~0.11.0",
+    "nodemon": "~1.14.11"
+  },
+  "dependencies": {}
+}
