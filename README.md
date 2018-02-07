@@ -16,7 +16,7 @@ Follow the next steps to install this module into your nodejs app.
 1. Install the NPM module
 
     ```bash
-    npm install --save @etools/js-model-validator
+    npm install --save @ealvarez/js-model-validator
     ```
 
 2. Create a JSON config file `my.config.json`.
@@ -48,12 +48,12 @@ Follow the next steps to install this module into your nodejs app.
 
     ```javascript
     var modelConfig = require('./my.config.json');
-    var validate = require('@etools/js-model-validator');
+    var validate = require('@ealvarez/js-model-validator');
     ```
 4. Add object we want to validate and call function.
     ```javascript
     var modelConfig = require('./my.config.json');
-    var validate = require('@etools/js-model-validator');
+    var validate = require('@ealvarez/js-model-validator');
     var personObj = {
         name: 'John',
         lastname: 'Wick',
