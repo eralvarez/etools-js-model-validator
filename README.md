@@ -89,11 +89,11 @@ This are the arguments you need to pass to the `validate` function.
 Response object:
 ```json
 {
-    valid: true,
-    neededKeys: [],
-    extraKeys: [],
-    wrongTypeKeys: [],
-    model: {}
+    "valid": true,
+    "neededKeys": [],
+    "extraKeys": [],
+    "wrongTypeKeys": [],
+    "model": {}
 }
 ```
 
