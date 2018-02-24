@@ -83,7 +83,7 @@ This are the arguments you need to pass to the `validate` function.
 | Argument      | Position | Var type | Required? | Defaults | Description
 |---------------|----------|----------|----|---|------------|
 | JS/JSON obj to validate | 1 | `object` | `yes` | `{}` | This is the JSON or model we want to analize/validate |
-| Contig object | 2 | `object` | `yes` | none | This is the config obj we will use to validate our JSON or model. |
+| Config object | 2 | `object` | `yes` | none | This is the config obj we will use to validate our JSON or model. |
 
 ## Function response
 Response object:
